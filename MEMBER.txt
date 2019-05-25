@@ -1,0 +1,12 @@
+member activation steps
+
+1- add a member in deactivate mode, 
+	1.1 - disable all the links and show only a single button 'Activate Account'
+	1.2 - if payment is not done, show a message for payment 
+2- if payment received, 
+	2.1 - send a otp on registered mobile number and save this otp in db
+	2.2 - verify otp,
+		2.2.1 - if verified, calculate number of months of subscription, update activate flag in db and also update expiry date with calculated purchased month subscription.
+		2.2.2 - if not verified, show an error message
+3. implement a Recurring job to extend expiry date of member if any payment is done for that member.
+	
