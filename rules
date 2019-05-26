@@ -1,0 +1,10 @@
+File format supported is .csv. So, only select .csv file here.
+This following link show the file format for csv. Columns should assign in similar order.
+All coulmns entries are mandatory(*). They can not be empty.
+Column names are case insensitive .
+First row of csv file indicates columns names, so they will not be added in database.
+
+Column order
+Product Code
+Product Name
+Product
