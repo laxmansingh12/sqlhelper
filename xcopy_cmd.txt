@@ -1,0 +1,2 @@
+xcopy "$(ProjectDir)Views"  "$(SolutionDir)TestOne.Host\Areas\Event\Views" /S /Y /I /R
+xcopy "$(ProjectDir)Scripts" "$(SolutionDir)TestOne.Host\Areas\Event\Scripts" /S /Y /I /R
